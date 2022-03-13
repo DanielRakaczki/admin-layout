@@ -353,6 +353,8 @@ main {
   place-items: start;
   background: #fff;
   border-bottom: 1px solid #00000022;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .order {
@@ -363,7 +365,7 @@ main {
 }
 .order > i {
   align-self: baseline;
-  transform: translateY(-15%);
+  transform: translateY(-5%);
   padding-left: .25em
 }
 
